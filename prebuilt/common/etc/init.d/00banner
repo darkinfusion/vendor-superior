@@ -1,0 +1,9 @@
+#!/system/bin/sh
+#
+# Print startup info
+#
+L="log -p i -t superior"
+
+
+
+$L "Welcome to Android `getprop ro.build.version.release` / by Superior OS";
